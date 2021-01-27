@@ -1,6 +1,10 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+/* eslint-disable react/prop-types */
+/* eslint-disable no-shadow */
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import Head from 'next/head';
 import db from '../db.json';
 
+// eslint-disable-next-line prefer-destructuring
 const theme = db.theme;
 
 const GlobalStyle = createGlobalStyle`
@@ -25,15 +29,18 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-`
+`;
 
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Dark Quiz</title>
+      </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
