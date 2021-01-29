@@ -34,6 +34,9 @@ Widget.Header = styled.header`
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   & > *:first-child {
     margin-top: 0;
   }

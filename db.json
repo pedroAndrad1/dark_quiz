@@ -1,5 +1,5 @@
 {
-    "bg": "https://wallpaperaccess.com/full/1605477.jpg",
+    "bg": "https://images.wallpapersden.com/image/download/louis-hofmann-and-lisa-vicari-netflix-dark_bGZsa2WUmZqaraWkpJRnZWltrWZmamc.jpg",
     "title": "Dark Quiz",
     "description": "Teste os seus conhecimentos sobre a maravilhosa série Dark. Veja se seu cerébro não fritou e se você está afiado sobre os nós do tempo.",
     "questions": [
@@ -31,9 +31,9 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
+        "primary": "#23485a",
+        "secondary": "#a28745",
+        "mainBg": "#000509",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50"
