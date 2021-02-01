@@ -1,12 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import db from '../db.json';
-import QuestionWidget from '../src/layout/QuestionWidget';
-import LoadingWidget from '../src/layout/LoadingWidget';
-import ResultWidget from '../src/layout/ResultsWidget';
+import QuizLogo from '../../components/QuizLogo';
+import QuizBackground from '../../components/QuizBackground';
+import QuizContainer from '../../components/QuizContainer';
+import QuestionWidget from '../../layout/QuestionWidget';
+import LoadingWidget from '../../layout/LoadingWidget';
+import ResultWidget from '../../layout/ResultsWidget';
 
 const screenStates = {
   QUIZ: 'QUIZ',
@@ -14,7 +13,7 @@ const screenStates = {
   RESULT: 'RESULT',
 };
 
-export default function QuizPage() {
+export default function QuizScreen({ db }) {
   const [screenState, setScreenState] = useState(screenStates.LOADING);
   const [results, setResults] = useState([]);
   const totalQuestions = db.questions.length;

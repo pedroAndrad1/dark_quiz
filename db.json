@@ -27,7 +27,7 @@
       }
     ],
     "external": [
-      ""
+      "https://batman-quiz.elyssonmr.vercel.app/"
     ],
     "theme": {
       "colors": {

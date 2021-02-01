@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import AlternativesForm from '../../components/AlternativesForms';
+import BackLinkArrow from '../../components/BackLinkArrow';
 import Button from '../../components/Button';
 import Widget from '../../components/Widget';
 
@@ -19,7 +20,7 @@ export default function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
-        {/* <BackLinkArrow href="/" /> */}
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
