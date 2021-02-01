@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import BackLinkArrow from '../../components/BackLinkArrow';
 import Widget from '../../components/Widget';
 /* eslint-disable react/prop-types */
 export default function ResultWidget({ results }) {
@@ -14,6 +15,7 @@ export default function ResultWidget({ results }) {
       animate="show"
     >
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Tela de Resultado:
       </Widget.Header>
 
