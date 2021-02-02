@@ -1,6 +1,7 @@
 {
     "bg": "https://images.wallpapersden.com/image/download/louis-hofmann-and-lisa-vicari-netflix-dark_bGZsa2WUmZqaraWkpJRnZWltrWZmamc.jpg",
     "title": "Dark Quiz",
+    "favicon": "https://triadedp.files.wordpress.com/2016/02/logotipo1.jpg",
     "description": "Teste os seus conhecimentos sobre a maravilhosa série Dark. Veja se seu cerébro não fritou e se você está afiado sobre os nós do tempo.",
     "questions": [
       {
@@ -101,7 +102,9 @@
       }
     ],
     "external": [
+      "https://alura-quiz.lucasketelhut.vercel.app/",
       "https://batman-quiz.elyssonmr.vercel.app/"
+
     ],
     "theme": {
       "colors": {
