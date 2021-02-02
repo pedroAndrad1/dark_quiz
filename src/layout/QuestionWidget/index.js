@@ -63,7 +63,7 @@ export default function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 1000);
+            }, 2000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
