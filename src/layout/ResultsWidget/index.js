@@ -21,7 +21,7 @@ export default function ResultWidget({ results, name }) {
 
       <Widget.Content>
         <p>
-          {name}
+          {name != null ? name : 'Jovem'}
           , você acertou
           {' '}
           {/** Um array de true e falses só vai retornar trues */}
