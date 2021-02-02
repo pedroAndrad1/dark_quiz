@@ -4,25 +4,99 @@
     "description": "Teste os seus conhecimentos sobre a maravilhosa série Dark. Veja se seu cerébro não fritou e se você está afiado sobre os nós do tempo.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://popseries.com.br/wp-content/uploads/2020/07/dark.png",
+        "title": "sic mundus",
+        "description": "O que significa 'sic mundus creatus est'?",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Eis que o mundo fui criado",
+          "Desde a criação do mundo",
+          "Assim o mundo foi criado",
+          "Este criou o mundo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://img.quizur.com/f/img5ecdb439a8fb85.85986084.jpg?lastEdited=1590539331",
+        "title": "Explodindo mentes",
+        "description": "Qual é a relação entre estes dois personagens?",
+        "answer": 3,
+        "alternatives": [
+           "Irmãos",
+           "Pai e filho",
+           "Avô e neto",
+           "São a mesma pessoa"
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5ecdb45900fb87.57517289.jpg?lastEdited=1590539363",
+        "title": "O garoto perdido",
+        "description": "Quando Mikkel reapareceu?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "1986",
+           "1970",
+           "1965",
+           "2005"
+        ]
+      },
+      {
+        "image": "https://www.nme.com/wp-content/uploads/2020/05/dark-netflix.jpg",
+        "title": "Ligados pelo tempo",
+        "description": "Qual é a relação entre Mikkel e Jonas?",
+        "answer": 1,
+        "alternatives": [
+           "Irmãos",
+           "Pai e filho",
+           "São a mesma pessoa",
+           "Primos"
+        ]
+      },
+      {
+        "image": "https://super.abril.com.br/wp-content/uploads/2020/06/25-06_DARK_SITE-1.jpg",
+        "title": "Portais",
+        "description": "Qual é a diferença de tempo entre as três épocas ligadas pelo buraco de minhoca?",
+        "answer": 2,
+        "alternatives": [
+           "30 anos",
+           "53 anos",
+           "33 anos",
+           "27 anos"
+        ]
+      },
+      {
+        "image": "https://i.insider.com/5ef409275af6cc13ef2e1253?width=1100&format=jpeg&auto=webp",
+        "title": "O ciclo",
+        "description": "Qual é o objetivo de Jonas? ",
+        "answer": 1,
+        "alternatives": [
+           "Manter o ciclo de acontecimentos.",
+           "Acabar com o ciclo de acontecimentos.",
+           "Destruir o mundo.",
+           "Alterar o ciclo para alcançar o paraíso."
+        ]
+      },
+      {
+        "image": "https://occ-0-1001-2705.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZlDGkf2PdSnJr4tDqTWJI7bZYuJCtdwBRnEtgo7B0T3r7Wc9zcHvzHYNJyhjhV9IGeFgu9tmV62EjyjiIrjExmWHh_bwP3gGaaG_RwEVi5dRp8I.jpg?r=6c7",
+        "title": "Amor proibido",
+        "description": "Quem é a amada de Jonas?",
+        "answer": 3,
+        "alternatives": [
+           "Agnes Nielsen",
+           "Regina Tiedemann",
+           "Elisabeth Doppler",
+           "Martha Nielsen (seu mundo)"
+        ]
+      },
+      {
+        "image": "https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/06/Dark-Jonas-Martha.png",
+        "title": "Dor",
+        "description": "Quem mata Martha Nielsen durante o apocalipse?",
+        "answer": 0,
+        "alternatives": [
+           "Jonas Kahnwald",
+           "Hannah Kahnwald",
+           "Noah",
+           "Gustav Tannhaus"
         ]
       }
     ],

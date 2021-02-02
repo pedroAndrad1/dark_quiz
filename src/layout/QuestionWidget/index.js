@@ -18,6 +18,7 @@ export default function QuestionWidget({
   const questionId = `question__${questionIndex}`;
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
+
   return (
     <Widget
       as={motion.section}
@@ -62,7 +63,7 @@ export default function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+            }, 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -77,11 +78,13 @@ export default function QuestionWidget({
                 data-selected={isSelected}
                 data-status={isQuestionSubmited && alternativeStatus}
               >
+                {/* Para limpar os radio buttons a cada pergunta, checked false */}
                 <input
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
+                  checked={false}
                   type="radio"
                 />
                 {alternative}

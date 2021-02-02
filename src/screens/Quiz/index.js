@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import QuizLogo from '../../components/QuizLogo';
 import QuizBackground from '../../components/QuizBackground';
 import QuizContainer from '../../components/QuizContainer';
@@ -20,6 +21,8 @@ export default function QuizScreen({ db }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const questionIndex = currentQuestion;
   const question = db.questions[questionIndex];
+  const router = useRouter();
+  const { name } = router.query;
 
   useEffect(() => {
     setTimeout(() => {
@@ -60,7 +63,7 @@ export default function QuizScreen({ db }) {
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
-        {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+        {screenState === screenStates.RESULT && <ResultWidget results={results} name={name} />}
       </QuizContainer>
     </QuizBackground>
   );

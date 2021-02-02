@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import BackLinkArrow from '../../components/BackLinkArrow';
 import Widget from '../../components/Widget';
 /* eslint-disable react/prop-types */
-export default function ResultWidget({ results }) {
+export default function ResultWidget({ results, name }) {
   return (
     <Widget
       as={motion.section}
@@ -21,7 +21,8 @@ export default function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Você acertou
+          {name}
+          , você acertou
           {' '}
           {/** Um array de true e falses só vai retornar trues */}
           {results.filter((x) => x).length}
@@ -34,10 +35,10 @@ export default function ResultWidget({ results }) {
               #
               {index + 1}
               {' '}
-              Resultado:
+              Pergunta:
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? ' Acertou'
+                : ' Errou'}
             </li>
           ))}
         </ul>
