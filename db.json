@@ -103,7 +103,10 @@
     ],
     "external": [
       "https://alura-quiz.lucasketelhut.vercel.app/",
-      "https://batman-quiz.elyssonmr.vercel.app/"
+      "https://batman-quiz.elyssonmr.vercel.app/",
+      "https://dnd-quiz.andrei-ce.vercel.app/",
+      "https://quiz-valorant.johnatanivini.vercel.app/",
+      "https://quiz-interstellar.dotjorge.vercel.app/"
 
     ],
     "theme": {
