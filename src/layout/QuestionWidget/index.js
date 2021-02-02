@@ -25,7 +25,7 @@ export default function QuestionWidget({
       transition={{ delay: 0, duration: 0.5 }}
       variants={{
         show: { opacity: 1, x: '0' },
-        hidden: { opacity: 0, x: '100%' },
+        hidden: { opacity: 0, x: '20%' },
       }}
       initial="hidden"
       animate="show"
